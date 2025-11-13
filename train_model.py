@@ -155,7 +155,7 @@ history = model.fit(
 # Evaluate
 # -----------------------------
 test_loss, test_acc = model.evaluate(X_test, y_test)
-print(f"✅ Test accuracy: {test_acc:.3f}")
+print(f"Test accuracy: {test_acc:.3f}")
 
 model.save("music_genre_classifier_fixed.keras")
 print("Model saved.")
